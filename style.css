@@ -1,0 +1,145 @@
+body{
+    margin: 0;
+    font-weight: lighter;
+    font-family: "Alegreya", serif;
+}
+.navbar{
+    background-color: white;
+    height: 70px;
+    width: 100%;
+    overflow: auto;
+    padding: 5px 0;
+
+}
+.navbar a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    margin: 0 20px;
+} 
+.navbar .logo{
+    height: 50px;
+    display: inline;
+}
+.narbar-content{
+    margin: 0px 100px;
+    /* padding: 5px; */
+}
+.nav-links{
+    margin: 0 0 0 450px;
+}
+
+.inline{
+    display: inline;
+}
+.inline-block{
+    display: inline-block;
+}
+.container{
+    text-align: center;
+    padding: 90px;
+}
+.gray{
+    background-color: rgba(134, 134, 134, 0.13);
+}
+.image{
+    width: 90%;
+}
+.image-container{
+    width: 40%;
+}
+.info{
+    text-align:left;
+    width: 50%; 
+    
+}
+.info span{
+    vertical-align: 20px ;
+}
+
+.header{
+    background-image: url(/images/drew-coffman-1872.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: auto;
+    text-align: center;
+}
+.content{
+    margin-top: 250px;
+    color: white;
+}
+.btn{
+    background-color: #8e7754;
+    color: white;
+    height: 50px;
+    font-size: 16px;
+    padding: 15px 28px;
+    border: none;
+    border-radius: 5px;
+    margin: 20px ;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: #6f5b3e;
+}
+
+.card img{
+    width: 100%;
+}
+.cards{
+    margin: 60px;
+}
+.card{
+    float:left;
+    width: 33.333333333%;
+}
+.float-fix{
+    clear: both;
+}
+.card-contant{
+    margin-inline: 20px;
+}
+
+.footer{
+    background-color: #403d38;
+    padding: 50px 150px;
+    color: #777;
+
+}
+.footer h4{
+    color: #fff;
+}
+
+.info-card{
+    float:left;
+    width: 25%;
+    
+}
+.info-card div{
+    margin: 20px;
+}
+
+.devider{
+    width: 100%;
+    padding-bottom: 15px;
+    border-bottom: #7e7e7e59 solid 1px;
+}
+.devider img{
+    vertical-align: -20px;
+}
+
+.footer2{
+    background-color: #353330;
+    text-align: center;
+    padding: 50px;
+}
+.footer2 p{
+    color: #777;
+}
+.footer2 .image{
+    width: 45px;
+    background-color: #403d38;
+    border-radius: 50%;
+    margin: 5px;
+}
