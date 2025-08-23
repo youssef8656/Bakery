@@ -58,7 +58,7 @@ body{
 }
 
 .header{
-    background-image: url(/images/drew-coffman-1872.jpg);
+    background-image: url(images/drew-coffman-1872.jpg);
     height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
